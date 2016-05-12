@@ -1,0 +1,108 @@
+{
+"name" : "Main Menu",
+"children": [
+{
+"name" : "Classical Mechanics",
+"children" : [
+		{"name":"Items",
+		"total":50,
+		"children" : [
+			{"name" : "Napstack", "value" : 50,"children" : [
+				{"name" : "Hat", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+				{"name" : "Claw of Harthoon", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+			    {"name" : "Spear", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+				{"name" : "Cup of Harthoon", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" :50},{"name" : "Remove Item", "value" : 50}]},
+				{"name" : "Cup of Odim", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" :50},{"name" : "Remove Item", "value" : 50}]},			
+				{"name" : "Spear of Odim", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]}]},
+		{"name" : "Character Apperance", "value" : 50},
+		{"name" : "Player Overview", "value" : 50}
+		]},
+		{
+		"name":"Spells",
+		"total":50,
+		"children" : [
+		{"name" : "Healing Spellbook", "value" : 50,"children" : [
+				{"name" : "Wound Heal", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+			    {"name" : "Burn Heal", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]}]},
+		{"name" : "Warrior Spellbook", "value" : 50,"children" : [
+				{"name" : "Inflict", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+			    {"name" : "Heavy Attack", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]}]},
+	   {"name" : "Trickster Spellbook", "value" : 50,"children" : [
+				{"name" : "Snake Soup", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]},
+			    {"name" : "Fire Pants", "value" : 16,"children" : 
+					[{"name" : "Equip Item", "value" : 50},{"name" : "Remove Item", "value" : 50}]}]}
+	]}
+]},
+{
+"name" : "Electricity and Magnatism",
+"children" : [
+		{
+		"name":"Game",
+		"total":50,
+		"children" : [
+		{"name" : "Load Game", "value" : 50},{"name" : "Save Game", "value" : 50},{"name" : "Restart Game", "value" : 50}
+		]},
+		{
+		"name":"Game Settings",
+		"total":50,
+		"children" : [
+		{"name" : "Brightness", "value" : 50},{"name" : "Background Volume", "value" : 50},{"name" : "Music Volume", "value" : 50}
+		]},
+		{
+		"name":"Quit",
+		"total":50,
+		"children" : [
+		{"name" : "Yes", "value" : 50},{"name" : "No", "value" : 50},{"name" : "Save Game", "value" : 50}
+		]},
+		{
+		"name":"New Scenario",
+		"total":50,
+		"children" : [
+		{"name" : "Random Scenario", "value" : 50},{"name" : "Rouge Villian", "value" : 50},{"name" : "Dashing Knight", "value" : 50},{"name" : "Venemous Viper", "value" : 50}
+	   
+	]}
+]},
+{
+"name" : "Optics",
+"children" : [
+		{
+		"name":"View Party",
+		"total":50,
+		"children" : [
+		{"name" : "Rahcel Stats", "value" : 50},{"name" : "Horus Stats", "value" : 50}
+		]},
+		{
+		"name":"Change Party",
+		"total":50,
+		"children" : [
+		{"name" : "Add Friends", "value" : 50},{"name" : "Remove Members", "value" : 50}
+	]}
+]},
+{
+"name" : "Thermodynamics",
+"children" : [
+		{
+		"name":"View Town",
+		"total":50,
+		"children": [
+		{"name" : "Resources", "value" : 50},{"name" : "Culture", "value" : 50}
+		]},
+		{
+		"name":"Currier Store",
+		"total":50,
+		"children" : [
+		{"name" : "Fast Donkey", "value" : 50},{"name" : "Dragon Donkey", "value" : 50}
+		]}
+	]}
+]}
