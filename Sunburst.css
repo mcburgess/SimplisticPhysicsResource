@@ -1,0 +1,32 @@
+/*TOOLTIPS*/
+#inner-details {
+  font-size:14px;
+}
+
+.tip {
+	 text-align: left;
+	 width:auto;
+	 max-width:500px;
+}
+
+.tip-title {
+  font-size: 20px;
+  text-align:center;
+  margin-bottom:5px;
+}
+
+pre {
+	background-color:#C0C0C0;
+	border:3px solid;
+	font-size:10px;
+	margin:5px auto;
+	padding:5px;
+	width:170px;
+	
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -webkit-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
