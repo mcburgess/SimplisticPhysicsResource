@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    
+<title>Sunburst - Sunburst of a Directory Tree</title>
+
+<!-- CSS Files -->
+<link type="text/css" href="base.css" rel="stylesheet" />
+<link type="text/css" href="Sunburst.css" rel="stylesheet" />
+
+<!--[if IE]><script language="javascript" type="text/javascript" src="../../Extras/excanvas.js"></script><![endif]-->
+
+<!-- JIT Library File -->
+<script language="javascript" type="text/javascript" src="jit-yc.js"></script>
+
+<!-- Example File -->
+<script language="javascript" type="text/javascript" src="example2.js"></script>
+
+
+<body onload="init();">
+<div id="container">
+
+<div id="left-container">
+
+
+
+        <div class="text">
+        <h4>
+<b>Dynamic Digital Directory Menu </b>  
+        </h4> 
+
+            This is a version of a Sunburst data viewer used as a menu, with a JSON Tree structure used as input for this visualization.<br /><br />
+            <b>Left click</b> to rotate the menu to the selected node and see its details. On the right module will be a link to the content.<br /><br />
+            <b>Right click</b> on the link to over it in a new tab
+        </div>
+
+        <div id="id-list"></div>
+
+</div>
+
+<div id="center-container">
+    <div id="infovis"></div>    
+</div>
+
+<div id="right-container">
+
+<div id="inner-details"></div>
+
+</div>
+
+<div id="log"></div>
+</div>
+</body>
+</html>
